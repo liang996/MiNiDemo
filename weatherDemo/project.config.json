@@ -4,7 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -37,9 +37,9 @@
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.14.3",
+  "libVersion": "2.14.4",
   "appid": "",
-  "projectname": "xiaocxDEMO",
+  "projectname": "minidemo1",
   "debugOptions": {
     "hidedInDevtools": []
   },

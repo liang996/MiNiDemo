@@ -1,0 +1,44 @@
+<!--logs.wxml-->
+<view class="container">
+  <!--地区选择器-->
+  <picker mode="region" bindchange="gaibian">
+    <view>{{region}}</view>
+  </picker>
+  <!--文本区域-->
+  <text>{{now.tmp}}°C{{now.cond_txt}}</text>
+  <!--图片区域-->
+
+  <image src="/images/{{now.cond_code}}.png"></image>
+  <view class="detail">
+
+    <view class="bar">
+      <view class="box"> 湿度</view>
+      <view class="box"> 气压</view>
+      <view class="box">能见度</view>
+  
+    </view>
+  
+    <view class="bar">
+     
+      <view class="box"> {{now.hum}}%</view>
+      <view class="box"> {{now.pres}}hPa</view>
+      <view class="box">{{now.vis}}km</view>
+  
+    </view>
+    <view class="bar">
+      <view class="box"> 风向</view>
+      <view class="box"> 风速</view>
+      <view class="box">风力</view>
+  
+    </view>
+    <view class="bar">
+      <view class="box"> {{now.wind_dir}}</view>
+      <view class="box"> {{now.wind_spd}}km/h</view>
+      <view class="box">{{now.wind_sc}}级</view>
+  
+    
+    </view>
+  </view>
+
+
+</view>
