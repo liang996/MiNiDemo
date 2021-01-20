@@ -1,0 +1,47 @@
+video {
+  width: 100%;
+}
+
+.dan {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  border: 1rpx solid #987938;
+  height: 100rpx;
+  flex-grow: 1;
+  border-radius: 5px;
+}
+
+button {
+  color: #fff;
+  background-color: #987938;
+}
+
+.list {
+  width: 100%;
+  min-height: 400rpx;
+}
+
+.listBox {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid rgb(24, 1, 1);
+  margin: 10rpx;
+}
+
+image {
+  width: 70rpx;
+  height: 70rpx;
+  margin: 20rpx;
+}
+
+text {
+  color: rgb(9, 140, 163);
+  font-size: 45rpx;
+  margin: 20rpx;
+  flex-grow: 1;
+
+}
