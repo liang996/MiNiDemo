@@ -1,0 +1,6 @@
+<view class="hede">
+<image src="{{avatarUrl}}"> </image>
+
+<text>{{name==="你好"?"你好":name}}</text>
+<button open-type="getUserInfo" bindgetuserinfo="getMyInfo" >切换图片</button>
+</view>
