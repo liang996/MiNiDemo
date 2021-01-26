@@ -1,0 +1,44 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+swiper {
+  height: 400rpx;
+  width: 100%;
+}
+
+swiper image {
+  height: 100%;
+  width: 100%;
+
+}
+
+.newList {
+  min-height: 600rpx;
+  padding: 15rpx;
+}
+
+.newItem {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid #4aa70de8;
+}
+
+.newItem image {
+  height: 150rpx;
+  width: 230rpx;
+  margin: 10rpx;
+}
+
+.newItem text {
+  width: 100%;
+  line-height: 60rpx;
+  font-size: 40rpx;
+}

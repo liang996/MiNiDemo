@@ -1,0 +1,23 @@
+<view class="MyLogin">
+  <block wx:if="{{isLogin}}">
+    <image src="{{src}}"></image>
+  <text>{{judgeLogin}}</text>
+  </block>
+  <button wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 未登入，请先登入</button>
+</view>
+
+<View class="sc">
+
+  <text>我的收藏({{number}})</text>
+
+</View>
+
+<!--新闻列表-->
+<view class="newList">
+  <View class="newItem" wx:for="{{ListItem}}" wx:key="{{item.id}}">
+    <image src="{{item.poster}}"> </image>
+
+    <text bindtap="newItem" data-id="{{item.id}}">{{item.title}}--{{item.date}}</text>
+
+  </View>
+</view>

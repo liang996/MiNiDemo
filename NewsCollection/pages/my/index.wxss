@@ -1,0 +1,21 @@
+.MyLogin{
+  height: 400rpx;
+  background-color: #328EEB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+ 
+.MyLogin  image{
+  height: 200rpx;
+  width:200rpx;
+  border-radius: 50%;
+}
+
+.MyLogin  text{
+  color: white;
+}
+.sc{
+  padding:22px ;
+}

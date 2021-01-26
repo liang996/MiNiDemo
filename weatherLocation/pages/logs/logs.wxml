@@ -1,0 +1,32 @@
+<!--logs.wxml-->
+<view class="wai">
+  <view class="nei">
+    <view class="left">
+      <image class="img" src="/images/{{now.cond_code}}.png"></image>
+      <text class="text1">{{now.tmp}}°C{{now.cond_txt}}</text>
+      <text class="text2">更新时间</text>
+
+      <text class="text3">{{updateTime}}</text>
+
+
+    </view>
+
+    <view class="right">
+      <text class="text4">当前城市:{{province}}{{city}}</text>
+      <view class="right1">
+        <text class="text4">风速:{{now.wind_spd}}km/h</text>
+        <text class="text4">风向:{{now.wind_dir}}</text>
+
+
+      </view>
+
+      <view class="right1">
+        <text class="text4">能见度:{{now.vis}}公里</text>
+
+
+      </view>
+
+
+    </view>
+  </view>
+</view>
